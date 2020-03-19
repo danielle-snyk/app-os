@@ -1,0 +1,19 @@
+{
+  "name": "simple",
+  "type": "project",
+  "description": "An example.",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Jon Doe",
+      "homepage": "https://foobar.com"
+    }
+  ],
+  "require": {
+    "php": ">5.1",
+    "latte/latte": "^2.5",
+    "tracy/tracy": "^2.6",
+    "twig/twig": "1.*"
+  },
+  "minimum-stability": "dev"
+}
