@@ -3,11 +3,11 @@ GEM
   specs:
     diff-lcs (1.3)
     mini_portile2 (2.4.0)
+    nio4r (2.5.8)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
-    puma (2.9.2)
-      rack (>= 1.1, < 2.0)
-    rack (1.6.13)
+    puma (4.3.10)
+      nio4r (~> 2.0)
     rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
@@ -31,7 +31,7 @@ PLATFORMS
 
 DEPENDENCIES
   nokogiri
-  puma (~> 2.9.0)
+  puma (~> 4.3.9)
   rake
   rspec
   turbolinks
