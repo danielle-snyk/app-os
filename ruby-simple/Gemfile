@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'nokogiri'
-gem 'puma', '~> 2.9.0'
+gem 'puma', '~> 4.3.11'
 gem 'rspec'
 gem 'rake'
 gem 'turbolinks'
